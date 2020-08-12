@@ -1,4 +1,7 @@
 n = int(input("Enter a number : "))
+if n<=0:
+    print("Enter a positive number")
+    exit()
 
 def fun(n):
     print(n)
